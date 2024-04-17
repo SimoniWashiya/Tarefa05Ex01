@@ -42,4 +42,4 @@ public class TesteExc {
         }
         System.out.println("Fim do método 2");
     }
-
+}
