@@ -6,25 +6,25 @@ public class TesteExc {
         try {
             metodo1();
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Erro: Õndice fora do limite do vetor.");
+            System.out.println("Erro: √çndice fora do limite do vetor.");
         } catch (ArithmeticException e) {
-            System.out.println("Erro: Divis„o por zero.");
+            System.out.println("Erro: Divis√£o por zero.");
         }
         System.out.println("Fim do main");
     }
 
     public static void metodo1() {
-        System.out.println("Inicio do mÈtodo 1");
+        System.out.println("Inicio do m√©todo 1");
         try {
             metodo2();
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Erro: Õndice fora do limite do vetor.");
+            System.out.println("Erro: √çndice fora do limite do vetor.");
         }
-        System.out.println("Fim do mÈtodo 1");
+        System.out.println("Fim do m√©todo 1");
     }
 
     public static void metodo2() {
-        System.out.println("Inicio do mÈtodo 2");
+        System.out.println("Inicio do m√©todo 2");
         try {
             int[] vetor = new int[10];
             for (int i = 0; i <= 15; i++) {
@@ -36,10 +36,10 @@ public class TesteExc {
                 }
             }
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Erro: Õndice fora do limite do vetor.");
+            System.out.println("Erro: √çndice fora do limite do vetor.");
         } catch (ArithmeticException e) {
-            System.out.println("Erro: Divis„o por zero.");
+            System.out.println("Erro: Divis√£o por zero.");
         }
-        System.out.println("Fim do mÈtodo 2");
+        System.out.println("Fim do m√©todo 2");
     }
-}
+
